@@ -165,7 +165,102 @@ ___
 ##### **Severity**: Low
 ##### **Priority**: Low
 ##### **Impact**: Low
+___
+## **Third Part: Test Automation**
+**TC_ID** | TC_01 
+---|---
+**Objective** | `Aims to test the daily scenario where users enter a valid credentials`  
+**Pre-requisite** | having a registered  username & password          
+**Steps** | open login URL > enter credentials > click Login          
+**Expected Result** | navigating to inventory page         
+**Actual Result** | navigating to inventory page         
+**Status**  | *PASSED* 
+**Assigned to**  | Omar Ahmed 
+___
 
+**TC_ID** | TC_02 
+---|---
+**Objective** | `Testing a regular user when he spells his username wrong`  
+**Pre-requisite** | none          
+**Steps** | open login URL > enter desired credentials > click Login          
+**Expected Result** | displays failure message         
+**Actual Result** | displays failure message         
+**Status**  | *PASSED* 
+**Assigned to**  | Omar Ahmed
+___
+**TC_ID** | TC_03 
+---|---
+**Objective** | `Testing a regular user when he enters a wrong password`  
+**Pre-requisite** | none          
+**Steps** | open login URL > enter desired credentials > click Login          
+**Expected Result** | displays failure message         
+**Actual Result** | displays failure message         
+**Status**  | *PASSED* 
+**Assigned to**  | Omar Ahmed
+___
+**TC_ID** | TC_04 
+---|---
+**Objective** | `Testing when a new user trying to sign in instead of sign up`  
+**Pre-requisite** | none          
+**Steps** | open login URL > enter desired credentials > click Login          
+**Expected Result** | displays failure message         
+**Actual Result** | displays failure message         
+**Status**  | *PASSED* 
+**Assigned to**  | Omar Ahmed
+___
+**TC_ID** | TC_05 
+---|---
+**Objective** | `Testing a miss click done by the user before filling the form`  
+**Pre-requisite** | none          
+**Steps** | open login URL > leave input fields empty > click Login          
+**Expected Result** | displays failure message         
+**Actual Result** | displays failure message         
+**Status**  | *PASSED* 
+**Assigned to**  | Omar Ahmed
+___
+**TC_ID** | TC_06 
+---|---
+**Objective** | `Testing privacy requirement where a password cannot be human readable`  
+**Pre-requisite** | none          
+**Steps** | open login URL > filling the password field/checking the input type          
+**Expected Result** | input type is 'password'         
+**Actual Result** | input type is 'password'         
+**Status**  | *PASSED* 
+**Assigned to**  | Omar Ahmed
+___
+**TC_ID** | TC_07 
+---|---
+**Objective** | `Testing a practical user tries to login with ENTER key instead of clicking login`  
+**Pre-requisite** | having a registered  username & password          
+**Steps** | open login URL > enter credentials > Press Enter          
+**Expected Result** | navigating to inventory page         
+**Actual Result** | navigating to inventory page         
+**Status**  | *PASSED* 
+**Assigned to**  | Omar Ahmed 
+___
+**TC_ID** | TC_08 
+---|---
+**Objective** | `Testing if the site logs out after navigating back to the login page`  
+**Pre-requisite** | having a registered  username & password          
+**Steps** | open login URL > enter credentials > click login > navigate backward > navigate forward          
+**Expected Result** | stuck at login page         
+**Actual Result** | navigates to inventory page         
+**Status**  | *FAILED* 
+**Assigned to**  | Omar Ahmed 
+___
+**TC_ID** | TC_09 
+---|---
+**Objective** | `Testing if the user browser directed him to the inventory instead of login page`  
+**Pre-requisite** | none          
+**Steps** | open inventory URL     
+**Expected Result** | re-direct to login page         
+**Actual Result** | re-direct to login page         
+**Status**  | *PASSED* 
+**Assigned to**  | Omar Ahmed 
+___
+| Total TCs | Passed | Failed | Perc. | Producible |
+| --------- |:------:| ------:| -----:| ----------:|
+| 9 Tests   | 8 Tests| 1 Test | ~0.89 | No         |
 
 
 
