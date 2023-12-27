@@ -222,9 +222,5 @@ ___
 | 9 Tests   | 8 Tests| 1 Test | ~0.89 | No         |
 
 
-![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title")
-
-
-
 
 
