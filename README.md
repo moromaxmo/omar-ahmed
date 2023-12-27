@@ -50,7 +50,7 @@ ___
 ### BugID: B-1
 ##### **Submitted by**: Omar Ahmed
 ##### **Title**:  Sign in manually (without external provider) failure
-##### **Reporducible steps**:
+##### **Reproducible steps**:
 ###### 1- launch the app
 ###### 2- click on the envelope icon
 ###### 3- enter an unregistered email & and a password
@@ -66,7 +66,7 @@ ___
 ### BugID: B-2
 ##### **Submitted by**: Omar Ahmed
 ##### **Title**:  Edit full name effect goes away after re-signing in
-##### **Reporducible steps**:
+##### **Reproducible steps**:
 ###### 1- Navigate to profile settings
 ###### 2- click on the pen icon next to full name and update it
 ###### 3- sign out from the account, sign in again
@@ -82,7 +82,7 @@ ___
 ### BugID: B-3
 ##### **Submitted by**: Omar Ahmed
 ##### **Title**:  Deleting user account does not succeed
-##### **Reporducible steps**:
+##### **Reproducible steps**:
 ###### 1- Navigate to profile settings
 ###### 2- click on the delete account option > click I'm sure
 ###### 3- write your password > click delete account
@@ -97,7 +97,7 @@ ___
 ### BugID: B-4
 ##### **Submitted by**: Omar Ahmed
 ##### **Title**:  Restore previous transactions does not respond
-##### **Reporducible steps**:
+##### **Reproducible steps**:
 ###### 1- Navigate to profile settings
 ###### 2- click on the Restore transactions
 ##### **Results** → Expected: dialogue specifies the behavior | Actual: nothing happens
@@ -111,9 +111,9 @@ ___
 ### BugID: B-5
 ##### **Submitted by**: Omar Ahmed
 ##### **Title**:  Changing first day of the week effect goes away after re-signing in
-##### **Reporducible steps**:
+##### **Reproducible steps**:
 ###### 1- Navigate to settings > scroll down to week starts on
-###### 2- click on the the day itself, stop when the day you want shows up
+###### 2- click on the day itself, stop when the day you want shows up
 ###### 3- sign out from the account, sign in again
 ###### 4- navigate to settings again > scroll down to week starts on
 ##### **Results** → Expected: updated day | Actual: Monday
@@ -127,9 +127,9 @@ ___
 ### BugID: B-6
 ##### **Submitted by**: Omar Ahmed
 ##### **Title**:  Bad notification button UX
-##### **Reporducible steps**:
+##### **Reproducible steps**:
 ###### 1- launch the app, make sure you are signed in
-###### 2- navigate to calender, all tasks, my day, or next 7 days
+###### 2- navigate to calendar, all tasks, my day, or next 7 days
 ###### 3- click on the checkbox on the upper left corner
 ##### **Attachments**:
 ##### **Affected devices**: iPhone X | iOS 16.7.2 | Any.do Version 5.40.13.1698
@@ -141,10 +141,10 @@ ___
 ### BugID: B-7
 ##### **Submitted by**: Omar Ahmed
 ##### **Title**:  Landscape orientation not supported
-##### **Reporducible steps**:
+##### **Reproducible steps**:
 ###### 1- launch the app, make sure you are signed in, turn portrait orientation lock off, rotate it 90d.
-###### 2- navigate to calender, all tasks, my day, next 7 days, settings, profile settings 
-##### **Results** → Expected: responsive screen rotaion| Actual: operates in portrait orientaion
+###### 2- navigate to calendar, all tasks, my day, next 7 days, settings, profile settings 
+##### **Results** → Expected: responsive screen rotation | Actual: operates in portrait orientation
 ##### **Attachments**:
 ##### **Affected devices**: iPhone X | iOS 16.7.2 | Any.do Version 5.40.13.1698
 ##### **Network**: WiFi
@@ -155,7 +155,7 @@ ___
 ### BugID: B-8
 ##### **Submitted by**: Omar Ahmed
 ##### **Title**:  Poor choice of naming option (match system color theme)
-##### **Reporducible steps**:
+##### **Reproducible steps**:
 ###### 1- launch the app, navigate to settings
 ###### 2- scroll down to dynamic theme, turn it on
 ##### **Results** → Expected: A name that expresses the option (ex: Match System Theme) | Actual: Dynamic theme
