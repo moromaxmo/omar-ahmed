@@ -56,7 +56,7 @@ ___
 ###### 3- enter an unregistered email & and a password
 ###### 4- click on create account
 ##### **Results** → Expected: success message/dialogue | Actual: failure message box
-##### **Attachments**:
+##### **Attachments**:![Alt text](B-1.jpg)
 ##### **Affected devices**: iPhone X | iOS 16.7.2 | Any.do Version 5.40.13.1698
 ##### **Network**: WiFi
 ##### **Severity**: Minor
@@ -72,7 +72,7 @@ ___
 ###### 3- sign out from the account, sign in again
 ###### 4- navigate to profile settings again
 ##### **Results** → Expected: updated full name | Actual: old full name
-##### **Attachments**:
+##### **Attachments**:NA
 ##### **Affected devices**: iPhone X | iOS 16.7.2 | Any.do Version 5.40.13.1698
 ##### **Network**: WiFi
 ##### **Severity**: Minor
@@ -87,7 +87,7 @@ ___
 ###### 2- click on the delete account option > click I'm sure
 ###### 3- write your password > click delete account
 ##### **Results** → Expected: success message > log out | Actual: failure message box
-##### **Attachments**:
+##### **Attachments**:![Alt text](B-3.jpg)
 ##### **Affected devices**: iPhone X | iOS 16.7.2 | Any.do Version 5.40.13.1698
 ##### **Network**: WiFi
 ##### **Severity**: Major
@@ -101,7 +101,7 @@ ___
 ###### 1- Navigate to profile settings
 ###### 2- click on the Restore transactions
 ##### **Results** → Expected: dialogue specifies the behavior | Actual: nothing happens
-##### **Attachments**:
+##### **Attachments**:NA
 ##### **Affected devices**: iPhone X | iOS 16.7.2 | Any.do Version 5.40.13.1698
 ##### **Network**: WiFi
 ##### **Severity**: Critical
@@ -117,7 +117,7 @@ ___
 ###### 3- sign out from the account, sign in again
 ###### 4- navigate to settings again > scroll down to week starts on
 ##### **Results** → Expected: updated day | Actual: Monday
-##### **Attachments**:
+##### **Attachments**:NA
 ##### **Affected devices**: iPhone X | iOS 16.7.2 | Any.do Version 5.40.13.1698
 ##### **Network**: WiFi
 ##### **Severity**: Major
@@ -131,7 +131,7 @@ ___
 ###### 1- launch the app, make sure you are signed in
 ###### 2- navigate to calendar, all tasks, my day, or next 7 days
 ###### 3- click on the checkbox on the upper left corner
-##### **Attachments**:
+##### **Attachments**:![Alt text](B-6.jpg)
 ##### **Affected devices**: iPhone X | iOS 16.7.2 | Any.do Version 5.40.13.1698
 ##### **Network**: WiFi
 ##### **Severity**: Minor
@@ -145,7 +145,7 @@ ___
 ###### 1- launch the app, make sure you are signed in, turn portrait orientation lock off, rotate it 90d.
 ###### 2- navigate to calendar, all tasks, my day, next 7 days, settings, profile settings 
 ##### **Results** → Expected: responsive screen rotation | Actual: operates in portrait orientation
-##### **Attachments**:
+##### **Attachments**:NA
 ##### **Affected devices**: iPhone X | iOS 16.7.2 | Any.do Version 5.40.13.1698
 ##### **Network**: WiFi
 ##### **Severity**: Minor
@@ -159,7 +159,7 @@ ___
 ###### 1- launch the app, navigate to settings
 ###### 2- scroll down to dynamic theme, turn it on
 ##### **Results** → Expected: A name that expresses the option (ex: Match System Theme) | Actual: Dynamic theme
-##### **Attachments**:
+##### **Attachments**:NA
 ##### **Affected devices**: iPhone X | iOS 16.7.2 | Any.do Version 5.40.13.1698
 ##### **Network**: WiFi
 ##### **Severity**: Low
@@ -262,6 +262,8 @@ ___
 | --------- |:------:| ------:| -----:| ----------:|
 | 9 Tests   | 8 Tests| 1 Test | ~0.89 | No         |
 
+
+![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title")
 
 
 
