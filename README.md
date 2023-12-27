@@ -1,52 +1,9 @@
 # omar-ahmed
-## **First Part: Test Design**
-### Test Scenarios
-#### Module: Sign Up
-##### 	ID:1    |	Sign up using Apple iCloud  |   Impact → Med
-##### 	ID:2	|	Sign up using Google account    |   Impact → Med
-##### 	ID:3	|	Sign up using Facebook account  |   Impact → Med
-##### 	ID:4	|	Sign up manually    |   Impact → High
-#### Module: Login
-##### 	ID:5	|	Sign in using Apple iCloud  |   Impact → Med
-##### 	ID:6	|	Sign in using Google account    |   Impact → Med
-##### 	ID:7	|	Sign in using Facebook account  |   Impact → Med
-##### 	ID:8	|	Sign in manually    |   Impact → High
-#### Module: Browsing
-##### 	ID:9	|	View tasks list |   Impact → High
-##### 	ID:10	|	View calendar events    |   Impact → Med
-#### Module: Management
-##### 	ID:11	|	Add a new task  |   Impact → High
-##### 	ID:12	|	Edit an existing task   |   Impact → High
-##### 	ID:13	|	Delete an existing task |   Impact → High
-#### Module: Gestures
-##### 	ID:14	|	Swipe left to mark task as completed    |   Impact → Low
-##### 	ID:15	|	Shake device to delete completed tasks  |   Impact → Low
-##### 	ID:16	|	Landscape orientation   |   Impact → Med
-#### Module: Profile
-##### 	ID:17	|	Change full name    |   Impact → Med
-##### 	ID:18	|	Change email address    |   Impact → Med
-##### 	ID:19	|	Edit profile photo  |   Impact → Med
-##### 	ID:20	|	Password reset  |   Impact → High
-##### 	ID:21	|	Delete a user account   |   Impact → High
-#### Module: Payment
-##### 	ID:22	|	Restore previous transactions   |   Impact → High
-#### Module: Preferences
-##### 	ID:23	|	Change application language |   Impact → High
-##### 	ID:24	|	Change application theme    |   Impact → Med
-##### 	ID:25	|	Change the first day of the week    |   Impact → Med
-#### Module: Notifications
-##### 	ID:26	|	Change reminder sounds  |   Impact → Low
-##### 	ID:27	|	Change notification badges counter  |   Impact → Low
-#### Module: Sign Out
-##### 	ID:28	|	Sign out from application   |   Impact → High
-#### Module: Network
-##### 	ID:29	|	Operating over Wi-Fi    |   Impact → High
-##### 	ID:30	|	Operating over 3G, 4G network   |   Impact → High
-#### Keys
-###### 	Module: Operating over a network includes:
-######         login, browsing, managing app tasks.
-## **Second Part: Bug Reporting**
 ___
+## **First Part: Test Design**
+![Alt text](<Part 1.png>)
+___
+## **Second Part: Bug Reporting**
 ### BugID: B-1
 ##### **Submitted by**: Omar Ahmed
 ##### **Title**:  Sign in manually (without external provider) failure
@@ -167,6 +124,7 @@ ___
 ##### **Impact**: Low
 ___
 ## **Third Part: Test Automation**
+### Test Cases:
 **TC_ID** | TC_01 
 ---|---
 **Objective** | `Aims to test the daily scenario where users enter a valid credentials`  
