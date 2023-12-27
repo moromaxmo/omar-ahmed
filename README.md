@@ -4,6 +4,7 @@ ___
 ![Alt text](<Part 1.png>)
 ___
 ## **Second Part: Bug Reporting**
+### Any.do Bugs Reports:
 ### BugID: B-1
 ##### **Submitted by**: Omar Ahmed
 ##### **Title**:  Sign in manually (without external provider) failure
@@ -124,7 +125,7 @@ ___
 ##### **Impact**: Low
 ___
 ## **Third Part: Test Automation**
-### Test Cases:
+### Swag Labs Login Test Cases:
 **TC_ID** | TC_01 
 ---|---
 **Objective** | `Aims to test the daily scenario where users enter a valid credentials`  
